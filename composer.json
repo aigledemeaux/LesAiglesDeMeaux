@@ -1,0 +1,36 @@
+{
+    "name": "mint/les-aigles-de-meaux",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "authors": [
+        {
+            "name": "ctom77",
+            "email": "thomas77139@gmail.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.0",
+        "wpackagist-theme/twentynineteen": "*",
+        "wpackagist-plugin/advanced-custom-fields": "*",
+        "wpackagist-plugin/advanced-custom-fields-font-awesome": "*",
+        "wpackagist-plugin/contact-form-7": "*",
+        "wpackagist-plugin/enhanced-media-library": "*",
+        "wpackagist-plugin/wp-mail-smtp": "^1.4.2",
+        "symfony/var-dumper": "^3.4"
+    },
+    "require-dev": {
+        "wpackagist-plugin/what-the-file": "*",
+        "wpackagist-plugin/simply-show-hooks": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}
