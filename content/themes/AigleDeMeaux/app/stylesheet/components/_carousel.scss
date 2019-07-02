@@ -1,0 +1,12 @@
+.carousel .slide{ 
+
+    .w-100{
+        width:100%;
+        border: 3px solid white;
+        @media only screen and (min-width: $tablette) {
+            width:65%!important;
+            margin:auto;
+        }
+    }
+    
+}

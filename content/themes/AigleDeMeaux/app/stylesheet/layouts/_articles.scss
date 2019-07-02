@@ -1,0 +1,104 @@
+.section-articles{
+    padding-top: 3%;
+    padding-left:3%;
+    padding-right:3%;
+    
+
+    @media only screen and (min-width: $tablette) {
+        width:80%;
+        margin:auto;
+    }
+
+    @media only screen and (min-width: $dekstop) {
+        width:100%;
+    }
+    .link{
+        text-align:center;
+        display:block;
+        font-variant: small-caps;
+        font-weight:bold;
+        color:$second-color;
+        font-size:1.2em;
+        //margin:auto;
+        //width:100%;
+        //border:1px solid black;
+        
+    }
+
+    
+    .articles{
+
+        @media only screen and (min-width: $dekstop) {
+            display: flex;
+            flex-wrap:wrap;
+            flex-direction:row;
+            max-width:100%;
+            justify-content:center;
+            
+            
+        }
+
+        .article{
+            border:1px solid black;
+            border-radius: 5px;
+            //width:100%;
+            margin:2%;
+            box-shadow:2px 2px 2px;
+            background-color:rgba($main-color ,0.5);
+            text-align:center;
+            flex-wrap: wrap;
+
+            @media only screen and (min-width: $dekstop) {
+                
+                min-width:30%;
+                max-width:30%;
+                margin:auto;
+                
+                margin:10px;
+                
+            }
+
+
+            &__image{
+                width: 90%;
+                //height: 250px;
+                border-radius:7px;
+                //display:inherit;
+            }
+            &__category{
+                padding:10px;
+                text-align:left;
+                background-color:$second-color;
+                width:40%;
+                color:white;
+                font-weight:bold;
+                text-align:center;
+                border-radius:5px;
+                
+            }
+            &__title{
+                text-align:center;
+                width:90%;
+                margin:auto;
+                border-bottom:1px solid black;
+                border-radius:10px;
+                margin-bottom:20px;
+                padding-bottom:5px;
+                
+
+                @media only screen and (min-width: $dekstop) {
+                    min-height:100px;
+                }
+            }
+            &__text{
+                line-height: 1.7em;
+                min-height:120px;
+
+            }
+            &__link{
+                color:white;
+                padding-bottom:20px;              
+            }
+        }
+    }
+}

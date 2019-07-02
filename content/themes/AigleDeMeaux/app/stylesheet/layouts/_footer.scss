@@ -1,0 +1,36 @@
+.footer{
+    text-align:center;
+    color:white;
+    font-style:italic;
+    border-radius:10px;
+    background-color: rgb(29,29,27);
+    @media only screen and (min-width: $dekstop) {
+        display:flex;
+        justify-content: space-around;
+
+    }
+
+    
+         
+
+    ul{
+        padding-inline-start:0px!important;
+        list-style:none;        
+    }
+    h4{
+        //text-decoration: underline;
+        color:$main-color;
+    }
+    .fourthpart{
+        &__logo{
+            font-size:2.5em;
+            display: flex;
+            justify-content:space-around;
+            
+            a{
+                color:white;
+                padding-bottom:15px;
+            }
+        }
+    }
+}

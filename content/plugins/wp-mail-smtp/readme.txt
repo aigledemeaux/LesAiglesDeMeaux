@@ -2,7 +2,7 @@
 Contributors: wpforms, jaredatch, smub, slaFFik
 Tags: smtp, wp mail smtp, wordpress smtp, gmail smtp, sendgrid smtp, mailgun smtp, mail, mailer, phpmailer, wp_mail, email, mailgun, sengrid, gmail, wp smtp
 Requires at least: 3.6
-Tested up to: 5.1
+Tested up to: 5.2
 Stable tag: 1.4.2
 Requires PHP: 5.3
 

@@ -1,0 +1,60 @@
+.resultat{
+    padding-top: 3%;
+    padding-left:3%;
+    padding-right:3%;
+    .teams {
+        display:flex;
+        justify-content:space-around;
+        align-items:baseline;
+        
+
+        &__one, &__two {
+            width:105px;
+            height:200px;
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+           
+            &__name {
+                text-align:center;
+                
+                font-weight:bold;
+
+            }
+        }
+
+        &__middle {
+            //border:1px solid black;
+            width:90px;
+            //align-self:flex-start;
+            border-radius:45px;
+            //background-image: linear-gradient(to right, rgba(darken($main-color, 15), 0.8) , rgba(lighten($second-color, 15), 0.7));
+            margin:0 10px 0 10px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            border-radius:10px;
+            vertical-align:middle;
+
+            &__versus {
+                font-size:1.7em;
+                width:60px;
+                height:60px;
+                border:3px solid $main-color;
+                border-radius:30px;
+                line-height:1.9em;
+                font-weight:bold;
+                color:lighten($main-color, 30);
+                background-color:$second-color;
+                
+            }
+
+            &__score{
+                font-size:1.7em;
+            }
+        }
+    }
+}

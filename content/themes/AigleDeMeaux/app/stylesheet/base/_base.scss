@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arya&display=swap');
+* {
+    font-family :  'Arya', sans-serif;
+    box-sizing: border-box;
+}
+.wrapper{
+   
+    background-color:lighten($second-color, 65);
+    color: $second-color;
+}
+
+h1 {
+    font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
+    text-align:center;
+}
+h2{
+    text-align:center;
+    text-transform:uppercase;
+}
+hr {
+    //padding : 20px 90px ;
+    width: 70%;
+    border-top:4px solid lighten($second-color, 20)!important;
+
+}
+

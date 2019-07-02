@@ -24,7 +24,7 @@ define('DB_USER', 'aigledemeaux');
 /** Mot de passe de la base de données MySQL. */
 define('DB_PASSWORD', 'aigledemeaux');
 /** Adresse de l’hébergement MySQL. */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost:8888');
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8');
 /** Type de collation de la base de données.
@@ -42,14 +42,15 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ';&*I])ub7o-3++%R_=6@G{(**AB`=dr9^l :j<%A9U%+x|v(6UO*>:S-;,l?nY_{');
-	define('SECURE_AUTH_KEY',  '?Hg:Q1+5|X9J2P+SlvUGKi5+HW0wF=[g~u&i7r-VL+%E5Q_rY%+LPQef-QW8Ks(P');
-	define('LOGGED_IN_KEY',    '_`,:K+|].D^@ih+Ehl8>U5Y|6v2P^V:V`zLU<@oKBC#,:@[jVZ88-WjJVt^P1s6K');
-	define('NONCE_KEY',        'CD=,$|^^5F,;U=$Il!2bxLUHH[XG|MAj?~B%nnS=<DdC]w1*dX6|:l6m:cg,+!hR');
-	define('AUTH_SALT',        ')a&OI3B|kslqr~=84&pa)99x OBesJryl7_sYgp]u(]5b f#Z9)yx-`A1l(.qY**');
-	define('SECURE_AUTH_SALT', '__G|a2j_)TlLb*st]`R*C3cW!u** Ns{D+]%o0(-R3R9H-iL`$pCpWk)JV1URN/6');
-	define('LOGGED_IN_SALT',   '3d></8))DA8yeU2[JDf2cU74T]uD6*UN[<+sMK]$;[~0!-62&]InT191cYH/Fm@X');
-	define('NONCE_SALT',       'a5}=mTe]+8IhN61cw;98X $$Z$2_h#Q_kdbD8l_(m*0X:&A*Sf50N[ze}8UIZz J');
+define('AUTH_KEY',         '~ahd;2l/F5d%Iv{.]kNk>4Otd8Ywl)sJ:3/K36ML5y<5Wj:oXj5Os`o8>J]9NiW(');
+  define('SECURE_AUTH_KEY',  'w|k2ek[HB]L~kmv/-=UVsZb?9P9B~i/Tz@+ A UKXL$CCQ}Z{$1 YC$n}7$iJ/Ut');
+  define('LOGGED_IN_KEY',    'W]Y{-z<2SylK),rczs(Eup_^:Yx9s#R.5tPP!Zv#wW&dFUq4L@VSr?zzlbk?>06:');
+  define('NONCE_KEY',        '`0E`D;j,2K4~OgsnI}yOB8s9lz.v)mqX1Q<L+1K#-BY)#~+&LS4wGgI@c%qO76x!');
+  define('AUTH_SALT',        ')/;E| oEBtsU=w6kA+JBEXPO@e8[Yq~Q++mQ<$(%pie,j{iq]ren|`N3Zei[h_(H');
+  define('SECURE_AUTH_SALT', 'GG@q+-XIC:c6*T!54ZTu_<;=VD2v!$bh*CYHSNRzJ!E$GMZj%lRD_l9WlqyUHO|W');
+  define('LOGGED_IN_SALT',   '.mdh|np* !C AH!sCs;z*`)hi9x |!`R2`5nh-8.W-|WNjq$+)+KxZTrBg#XFMD:');
+  define('NONCE_SALT',       'v|)9%LX%Y/&sagIfor|Qei6Sx7s;Es.K|+0@T3$N/KaHA(i:<S!@EC&zz}lb+IH*');
+
 /**#@-*/
 /**
  * Préfixe de base de données pour les tables de WordPress.
@@ -60,7 +61,7 @@ define('AUTH_KEY',         ';&*I])ub7o-3++%R_=6@G{(**AB`=dr9^l :j<%A9U%+x|v(6UO*
  */
 $table_prefix  = 'wp_';
 // Je viens indiquer à WordPress le nouvel emplacement de mon dossier "wp-content"
-define( 'WP_CONTENT_URL', 'http://localhost/LesAiglesDeMeaux/content' );
+define( 'WP_CONTENT_URL', 'http://localhost:8888/LesAiglesDeMeaux/content' );
 define( 'WP_CONTENT_DIR', dirname( ABSPATH ) . '/content' );
 /**
  * Pour les développeurs : le mode déboguage de WordPress.

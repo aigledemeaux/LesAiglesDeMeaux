@@ -1,0 +1,115 @@
+header {
+    padding-top: 3%;
+    padding-left:3%;
+    padding-right:3%;
+    .header-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__logo {
+            width: 220px;
+            height: 220px;
+            border-radius: 110px;
+        }
+
+        &__title {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            &__team {
+                margin:20px;
+                align-self:center;
+            }
+        }
+    }
+
+    .header-bottom {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        margin:0 5% 0 5%;
+
+        &__meteo{
+            display:flex;
+            flex-direction:column;
+            width:100%;
+            border-bottom: 2px solid $main-color;
+            
+
+            &__position {
+                text-align:center;
+                font-size:1.4em;
+                padding:10px 0 0px 0;
+                margin:0 0 15px 0;
+                border-top : 2px solid $main-color;
+
+            }
+
+            &__informations{
+                display:flex;
+                flex-direction:row;
+                justify-content:space-around;
+                font-weight:bold;
+
+                &__temperature{
+                    border-top:2px solid $main-color;
+                    border-right:2px solid $main-color;
+                    border-left:2px solid $main-color;
+                    border-radius:5px;
+                    padding:8px 8px 0 8px;
+                }
+
+                &__state{
+                    border-top:2px solid $main-color;
+                    border-right:2px solid $main-color;
+                    border-left:2px solid $main-color;
+                    border-radius:5px;
+                    padding:8px 8px 0 8px;
+                }
+
+            }
+        }
+
+        &__buttons{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            margin-top:3%;
+            padding-bottom:3%;
+            width:100%;
+
+            @media only screen and (min-width: $dekstop) {
+                flex-direction:row;
+                justify-content:center;
+            }
+            
+
+            &__button {
+                border: 1px solid black;
+                border-radius:5px;
+                //background-color:$main-color;
+                background-image: radial-gradient(circle at center, lighten($main-color, 20 ),$main-color);
+                color:white;
+                padding:8px;
+                margin:5px;
+                width:75%;
+
+                @media only screen and (min-width: $dekstop) {
+                    width:35%;
+                }
+
+
+                &::after {
+                    content:"→";
+                    padding:0  0 0 10px;
+                    font-size:1.3em;
+                    float:right;
+                }
+            }
+            
+        }
+    }
+}
+        

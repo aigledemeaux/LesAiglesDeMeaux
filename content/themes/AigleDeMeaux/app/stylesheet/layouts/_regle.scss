@@ -1,0 +1,51 @@
+.rules{
+    padding-top: 3%;
+    padding-left:3%;
+    padding-right:3%;
+    margin-bottom:50px;
+    &__title{
+        margin-bottom:50px;
+    }
+    &__position{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        &__image{
+            width:90%;
+            display:block;
+            //margin:auto;
+            margin-bottom: 5%;
+            @media only screen and (min-width: $tablette) {
+                width:60%;
+            }
+            @media only screen and (min-width: $dekstop) {
+                width:25%;
+            }
+            
+        }
+        @media only screen and (min-width: $dekstop) {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            
+        }
+
+        p{
+            @media only screen and (min-width: $tablette) {
+                width:100%;
+                margin:auto;
+                padding-bottom:10px;
+
+                
+            }
+            @media only screen and (min-width: $dekstop) {
+                width:80%;
+            }
+            span{
+                font-weight:bold;
+                text-decoration:underline;
+            }
+        }
+    }
+    
+}

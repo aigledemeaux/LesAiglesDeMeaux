@@ -3,3 +3,14 @@ RewriteCond %{REQUEST_URI} !^wp/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /LesAiglesDeMeaux/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /LesAiglesDeMeaux/index.php [L]
+</IfModule>
+
+# END WordPress

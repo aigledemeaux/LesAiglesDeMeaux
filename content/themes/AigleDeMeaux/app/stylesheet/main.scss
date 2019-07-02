@@ -1,4 +1,20 @@
+@import 'abstracts/variables';
 
-.salut{
-    color:orange;
-}
+@import 'base/base';
+
+@import 
+'components/menu',
+'components/carousel',
+'components/form',
+'components/pagination'; 
+
+@import 
+        'layouts/header',
+        'layouts/resultats',
+        'layouts/articles',
+        'layouts/regle',
+        'layouts/footer';
+
+
+@import
+       'pages/allArticles';
