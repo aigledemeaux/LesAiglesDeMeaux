@@ -1,6 +1,6 @@
 .menu-open {
     width:70%!important;
-    transition-duration:1.3s;
+    transition-duration:0.5s;
 
     @media only screen and (min-width: $tablette) {
         width:45%!important;
@@ -12,10 +12,15 @@
     display:flex;
     flex-direction:row;
     position:fixed;
+    top:0;
     right:0px;
     width:0%;
-    transition-duration:1.3s;
+    transition-duration:0.5s;
     z-index: 10000;
+
+    @media only screen and (min-width: $dekstop) {
+        display:none;
+    }
 
 
 
@@ -52,7 +57,7 @@
             text-align:center;
             font-size : 2.3em;
             color:$second-color;
-            transition-duration: 1.3s;
+            transition-duration: 0.5s;
 
             @media only screen and (min-width: $tablette) {
                 font-size:2.7em;
@@ -62,7 +67,7 @@
 
         .rotate {
             transform:rotate(180deg);
-            transition-duration: 1.3s;
+            transition-duration: 0.5s;
         }
         
         
@@ -94,11 +99,15 @@
 
             li {
                 text-align:center;
-                color:$second-color;
+                
                 font-weight:bold;
                 width:50%;
                 margin:auto;
-                border-bottom:1 px solid black;
+                //border-bottom:1px solid black;
+                a{
+
+                    color:$second-color;
+                }
             }
         }
 

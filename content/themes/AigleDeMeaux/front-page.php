@@ -3,31 +3,27 @@
 Template Name: home
 */
 get_header() ?>
-    </div>
-    <div class="header-bottom__buttons">
-        <a href="#actu" class="header-bottom__buttons__button">Nos articles</a>
-        <a href="#rules" class="header-bottom__buttons__button">Découvrez le baseball</a>
-    </div>
+
+
+<div class="buttons">
+  <a href="#actu" class="buttons__button">Nos articles</a>
+  <a href="#rules" class="buttons__button">Découvrez le baseball</a>
 </div>
-</header>
 <hr>
+<?php
+
+  $arguments = [
+     'post_type'         => 'resultat',
+     'posts_per_page'    => 1,
+     'orderby'           => 'desc',
+     ];
+     $result = new WP_Query($arguments); ?>
+
 <section class="resultat">
-  <h2>Résultat du dernier match</h2>
-  <div class="teams">
-    <div class="teams__one">
-      <p class="teams__one__name"><strong>Les aigles de Meaux</strong></p>
-      <img class="teams__one__logo" src="content/themes/AigleDeMeaux/public/images/aigleLogo.png" alt="">
-    </div>
-    <div class="teams__middle">
-      <p class="teams__middle__versus">VS</p>
-      <p class="teams__middle__score">8-18</p>
-    </div>
-    <div class="teams__two">
-      <p class="teams__two__name"><strong>Chantilly</strong></p>
-      <img class="teams__two__logo" src="content/themes/AigleDeMeaux/public/images/orgevalLogo.png" alt="">
-    </div>
-  </div>
+<?php if ($result->have_posts()):while ($result->have_posts()): $result->the_post(); ?>
+<?php   get_template_part('template-parts/template-part-result', 'resultat');?>
 </section>
+<?php  endwhile; endif; ?>
 <hr>
 <section class="carousel">
   <h2 class="title">Quelques photos</h2>
@@ -64,26 +60,22 @@ get_header() ?>
   <h2 class="title" id="actu">Nos actualités</h2>
   <div class="articles">
 
-<?php
+    <?php
 
   $args = [
      'post_type'         => 'actualite',
      'posts_per_page'    => 3,
      'orderby'           => 'desc',
      ];
-     $cheese = new WP_Query($args);
-     if ($cheese->have_posts()): while ($cheese->have_posts()): $cheese->the_post(); ?>
-      <div class="article">
-            <p class="article__category"><?= get_the_terms(get_the_ID(), 'categorie')[0]->name; ?></p>
-            <h3 class="article__title"><?php the_title(); ?></h3>
-            <img src="<?= the_post_thumbnail_url(); ?>" alt="" class="article__image">
-            <p class="article__text"><?php the_excerpt(); ?></p>
-            <a href="<?php the_permalink() ?>" class="article__link">Lire la suite</a>
-          </div>
-   <?php endwhile; wp_reset_postdata(); endif; ?>
+     $actualite = new WP_Query($args);
+     if ($actualite->have_posts()): while ($actualite->have_posts()): $actualite->the_post(); ?>
+
+<?php   get_template_part('template-parts/template-part-article', 'article');?>
+    
+    <?php endwhile; wp_reset_postdata(); endif; ?>
 
   </div>
-  <a href="<?php bloginfo('url')?>/articles" class="link">Voir plus d'articles</a>
+  <a href="<?php bloginfo('url')?>/actualite" class="link">Voir plus d'articles</a>
 
 </article>
 <hr>
@@ -92,15 +84,15 @@ get_header() ?>
   <div class="rules__position">
     <img src="content/themes/AigleDeMeaux/public/images/TerrainDeBaseball.png" alt="" class="rules__position__image">
     <div class="rules_position_text">
-    <p><span>C (catcher) :</span> Attrape la balle du lanceur.</p>
-    <p><span>P (Pitcher) :</span> Lance la batte au batteur.</p>
-    <p><span>2B (2ème base) :</span> Se tient prêt a réceptionner la balle en 2ème base.</p>
-    <p><span>3B (3ème base) :</span> Se tient prêt a réceptionner la balle en 3ème base.</p>
-    <p><span>LF (Left Field) :</span> Attrape la balle du lanceur.</p>
-    <p><span>CF (Center Field) :</span> Attrape la balle du lanceur.</p>
-    <p><span>RF (Right Field) :</span> Attrape la balle du lanceur.</p>
-    <p><span>SS (Short Stop) :</span> Attrape la balle du lanceur.</p>
-</div>
+      <p><span>C (catcher) :</span> Attrape la balle du lanceur.</p>
+      <p><span>P (Pitcher) :</span> Lance la batte au batteur.</p>
+      <p><span>2B (2ème base) :</span> Se tient prêt a réceptionner la balle en 2ème base.</p>
+      <p><span>3B (3ème base) :</span> Se tient prêt a réceptionner la balle en 3ème base.</p>
+      <p><span>LF (Left Field) :</span> Attrape la balle du lanceur.</p>
+      <p><span>CF (Center Field) :</span> Attrape la balle du lanceur.</p>
+      <p><span>RF (Right Field) :</span> Attrape la balle du lanceur.</p>
+      <p><span>SS (Short Stop) :</span> Attrape la balle du lanceur.</p>
+    </div>
   </div>
 </section>
 

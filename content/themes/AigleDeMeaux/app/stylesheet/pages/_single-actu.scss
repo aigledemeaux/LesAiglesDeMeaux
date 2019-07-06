@@ -1,0 +1,137 @@
+.single {
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    &__image {
+        width:90%;
+        border-radius:5px;
+        margin:auto;
+
+        @media only screen and (min-width: $tablette) {
+                width:70%;
+                height:350px;
+    }
+
+    @media only screen and (min-width: $dekstop) {
+        width:70%;
+        height:450px;
+}
+}
+
+    &__title {
+        font-style: italic;
+        color:$main-color;
+        border-radius:5px;
+        width:90%;
+        padding:10px;
+        margin:15px auto;
+        
+    }
+
+    &__infos {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        padding:20px 0;
+        width:90%;
+        margin:auto;
+        &__publish{
+            display:flex;
+            border-radius:5px;
+            align-items:center;
+            justify-content:space-around;
+
+            padding:10px 0 0 0;
+
+
+            span{
+                font-weight:bold;
+            }
+
+            &__avatar {
+                width:40%;
+                text-align:center;
+                img {
+                    border-radius:35px;
+                    border:3px solid $main-color;
+                }
+            }
+
+            &__pipe {
+               // border-right:3px solid $main-color;
+               width:10%;
+               font-size:2.5em;
+               color:$main-color;
+               text-align:center;
+            }
+
+            &__author{
+                width:40%;
+                text-align:center;
+            }
+
+        }
+                &__category {
+                    border-radius:5px;
+                    border: 2px solid $second-color;
+                    padding:10px 0;
+                    width:60%;
+                    margin:10px auto;
+                    text-align:center;
+
+                    @media only screen and (min-width: $tablette) {
+                        width:30%;
+            }
+
+
+                    span{
+                        font-weight:bold;
+                    }
+                }
+    }
+
+    &__content {
+        width:90%;
+        margin:auto;
+
+        @media only screen and (min-width: $tablette) {
+            width:80%;
+        }
+        @media only screen and (min-width: $dekstop) {
+            width:60%;
+        }
+
+        img{
+            width:90%;
+            height: 200px;
+    
+            @media only screen and (min-width: $tablette) {
+                width:100%;
+                height: 250px;
+            }
+            @media only screen and (min-width: $dekstop) {
+                width:90%;
+                height: auto;
+            }
+        }
+    
+        .logo{
+            width:auto;
+            height:auto;
+        }
+    }
+
+    &__back{
+        padding:7px;
+        border:2px solid $second-color;
+        font-weight:bold;
+        width:90%;
+        margin:5px auto;
+        color:$main-color;
+        border-radius:5px;
+        text-align:center;
+        font-variant:small-caps;
+        font-size:1.3em;
+
+    }
+}

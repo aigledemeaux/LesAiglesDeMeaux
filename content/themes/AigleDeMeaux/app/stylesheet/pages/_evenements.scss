@@ -1,0 +1,110 @@
+.tribe-events-pg-template{
+
+    #tribe-events-content-wrapper{
+
+        // Titre du haut de page
+        .tribe-events-page-title{
+            font-size: 1.3em;
+            margin:2em;
+        }
+
+        // Barre de recherche en mode téléphone
+            #tribe-bar-filters-wrap{
+
+                button{
+                color:$main-color;
+                background-color: lighten($second-color, 40);
+                }
+
+                
+            }
+            // Bouton des options d'affichage en mode téléphone
+            .tribe-bar-collapse #tribe-bar-views-toggle{
+                color: $main-color;
+
+                
+            }
+            .tribe-icon-list{
+                color:$main-color;
+            }
+
+            #tribe-events-content .tribe-events-calendar td.tribe-events-present.mobile-active:hover, .tribe-events-calendar td.tribe-events-present.mobile-active, .tribe-events-calendar td.tribe-events-present.mobile-active div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present.mobile-active div[id*=tribe-events-daynum-] a{
+                background-color:$main-color;
+            }
+
+            //Background color rouge sur la jour acutel
+            #tribe-events-content .tribe-events-calendar .mobile-active:hover, #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active, #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active div[id*=tribe-events-daynum-], #tribe-events-content .tribe-events-calendar td.tribe-events-othermonth.mobile-active div[id*=tribe-events-daynum-] a, .tribe-events-calendar .mobile-active div[id*=tribe-events-daynum-], .tribe-events-calendar .mobile-active div[id*=tribe-events-daynum-] a, .tribe-events-calendar td.mobile-active{
+                background-color:$main-color;
+            }
+
+            // Mode téléphone le titre une fois qu'on a ouvert un jour du calendrier
+            .summary{
+                & a{
+                    color:$main-color;
+                }
+            }
+            // le bouton en savoir plus pour accèder au détail
+            .tribe-events-read-more{
+                color:$main-color;
+            }
+
+            //mode ordinateur pastille rouge qui permet de voir quel jour on est.
+            #tribe-events .tribe-events-button, #tribe-events .tribe-events-button:hover, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-active:hover, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a{
+                background-color: $main-color;
+            }
+
+            //Couleur des evenement à l'intérieur du calendrier
+            .tribe-events-calendar div[id*=tribe-events-event-] h3.tribe-events-month-event-title a{
+                color:$main-color;
+                font-size:1.3em;
+            }
+        
+    }
+
+    // Mode ordinateur border a coté de chaque section
+    .tribe-events-event-meta .column, .tribe-events-event-meta .tribe-events-meta-group{
+        border-right: 2px solid $main-color;
+        margin-right:10px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+
+    // Mode ordinateur Titre de chaque section en rouge
+    .tribe-events-meta-group .tribe-events-single-section-title{
+        color: $main-color;
+    }
+
+    // border autour de la map
+    iframe{
+        border: 3px solid $main-color !important;
+    }
+
+    .tribe-events-back{
+        a{
+            color:$main-color;
+        }
+    }
+
+    #tribe-events .tribe-events-button, #tribe-events .tribe-events-button:hover, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-active:hover, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a{
+        background-color:$main-color;
+        color:white;
+        margin-bottom: 10px;
+    }
+    // Mode ordinateur pour prévenir qu'il n'y a aucun resultat à ce jour
+    .tribe-events-notices{
+        background-color: rgba($main-color, 0.7);
+        color: darken($main-color, 20);
+        text-shadow: none;
+    }
+
+    // Titre de l'evenement quand il est affiché en mode liste
+    .tribe-event-url, .tribe-events-adv-list-widget .tribe-events-widget-link a, .tribe-events-adv-list-widget .tribe-events-widget-link a:hover, .tribe-events-back a, .tribe-events-back a:hover, .tribe-events-event-meta a, .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-list-widget .tribe-events-widget-link a:hover, ul.tribe-events-sub-nav a, ul.tribe-events-sub-nav a{
+        color: $main-color;
+    }
+
+    // Couleur du jour actuel
+    .tribe-events-pg-template #tribe-events-content a, .tribe-events-pg-template .tribe-events-adv-list-widget .tribe-events-widget-link a, .tribe-events-pg-template .tribe-events-adv-list-widget .tribe-events-widget-link a:hover, .tribe-events-pg-template .tribe-events-back a, .tribe-events-pg-template .tribe-events-back a:hover, .tribe-events-pg-template .tribe-events-event-meta a, .tribe-events-pg-template .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-pg-template .tribe-events-list-widget .tribe-events-widget-link a:hover, .tribe-events-pg-template ul.tribe-events-sub-nav a, .tribe-events-pg-template ul.tribe-events-sub-nav > a{
+        color:white;
+    }
+    
+}

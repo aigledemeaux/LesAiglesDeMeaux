@@ -18,7 +18,7 @@
         font-variant: small-caps;
         font-weight:bold;
         color:$second-color;
-        font-size:1.2em;
+        font-size:1.4em;
         //margin:auto;
         //width:100%;
         //border:1px solid black;
@@ -29,8 +29,8 @@
     .articles{
 
         @media only screen and (min-width: $dekstop) {
-            display: flex;
-            flex-wrap:wrap;
+            //display: flex;
+            //flex-wrap:wrap;
             flex-direction:row;
             max-width:100%;
             justify-content:center;
@@ -39,66 +39,133 @@
         }
 
         .article{
-            border:1px solid black;
-            border-radius: 5px;
-            //width:100%;
-            margin:2%;
-            box-shadow:2px 2px 2px;
-            background-color:rgba($main-color ,0.5);
-            text-align:center;
-            flex-wrap: wrap;
-
+            font-size: 1.2em;
+            color:$second-color;
+            width:90%;
+            margin:auto;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 1.5em;
+            border-bottom: 2px solid $main-color;
+        
+            @media only screen and (min-width: $tablette) {
+                    
+                width: 80%;
+            }
+        
             @media only screen and (min-width: $dekstop) {
+                    
+                width: 80%;
+                display:flex;
+                min-height: 30vh;
+                align-items:center;
                 
-                min-width:30%;
-                max-width:30%;
-                margin:auto;
-                
-                margin:10px;
-                
+            
             }
-
-
-            &__image{
-                width: 90%;
-                //height: 250px;
-                border-radius:7px;
-                //display:inherit;
-            }
-            &__category{
-                padding:10px;
-                text-align:left;
-                background-color:$second-color;
-                width:40%;
-                color:white;
-                font-weight:bold;
+            
+            .image{
+                
+                position:relative;
                 text-align:center;
-                border-radius:5px;
-                
-            }
-            &__title{
-                text-align:center;
-                width:90%;
-                margin:auto;
-                border-bottom:1px solid black;
-                border-radius:10px;
-                margin-bottom:20px;
-                padding-bottom:5px;
-                
-
+                width:100%;
+        
                 @media only screen and (min-width: $dekstop) {
-                    min-height:100px;
+                    
+                    width: 100%;
+                }
+        
+                & img{
+                    width:100%;
+                    border: 2px solid $main-color;
+                    height:200px;
+                    @media only screen and (min-width: 570px) {
+                    
+                        width: 90%;
+                        height: 275px;
+                    }
+
+                    @media only screen and (min-width: $dekstop) {
+                    
+                        width: 90%;
+                        height: 275px;
+                    }
+                }
+                
+                & p{
+                    padding: 5px;
+                    position:absolute;
+                    left:0;
+                    top:0;
+                    border-bottom: 2px solid $second-color;
+                    border-right: 2px solid $second-color;
+                    border-bottom-right-radius: 5px;
+                    background-color: $main-color;
+                    color:white;
+                    @media only screen and (min-width: $dekstop) {
+                    
+                        left:10%;
+                    }
+                    @media only screen and (min-width: 570px) {
+                    
+                        left:5%
+                    }
                 }
             }
-            &__text{
-                line-height: 1.7em;
-                min-height:120px;
-
+        
+            .text_link{
+                margin-top: 1em;
+                display:flex;
+                flex-direction: column;
+                justify-content: space-between;
+        
+                @media only screen and (min-width: $tablette) {
+                    
+                        flex-direction:row;
+                    }
+                    @media only screen and (min-width: $dekstop) {
+                    
+                        flex-direction: column;
+                        margin-right: 20px;
+                        width: 100%;
+                        justify-content:center;
+                        text-align:center;
+                        margin-top: 0px;
+                    }
+                
+                & .link{
+                    align-self:center;
+        
+                    & a{
+                        margin-top:20px;
+                        color:white;
+                        background-color:$main-color;
+                        padding: 5px;
+                        border-radius: 3px;
+                        font-size: 0.7em;
+                        
+                        &:hover{
+                            text-decoration: none;
+                            transform: scale(1.1);
+                            transition-duration: 0.1s
+                        }
+                        
+                    }
+                }
+        
+                & .text{
+                    margin-bottom: 1em;
+                    
+                    & h3{
+                        color:$main-color;
+                    }
+        
+                    & span{
+                        //color:$main-color;
+                        font-weight: bold;
+                    }
+                }
             }
-            &__link{
-                color:white;
-                padding-bottom:20px;              
-            }
+        
         }
     }
 }

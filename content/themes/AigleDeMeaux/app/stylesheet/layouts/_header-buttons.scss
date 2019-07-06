@@ -1,0 +1,43 @@
+.buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:3%;
+    padding-bottom:3%;
+    width:100%;
+
+    @media only screen and (min-width: $dekstop) {
+        flex-direction:row;
+        justify-content:center;
+    }
+    
+
+    &__button {
+        border: 1px solid black;
+        border-radius:5px;
+        background-image: radial-gradient(circle at center, lighten($main-color, 20 ),$main-color);
+        color:white;
+        padding:8px;
+        margin:5px;
+        width:75%;
+
+        &:hover{
+            color:white;
+            text-decoration:none;
+            transform:scale(1.03);
+            transition-duration:0.2s;
+        }
+
+        @media only screen and (min-width: $dekstop) {
+            width:35%;
+        }
+
+
+        &::after {
+            content:"→";
+            padding:0  0 0 10px;
+            font-size:1.3em;
+            float:right;
+        }
+    }
+}

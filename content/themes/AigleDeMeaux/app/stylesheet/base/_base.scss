@@ -4,10 +4,23 @@
     font-family :  'Arya', sans-serif;
     box-sizing: border-box;
 }
+
+body{
+    //background: radial-gradient(lighten($main-color, 60), lighten($second-color, 65));
+}
 .wrapper{
    
-    background-color:lighten($second-color, 65);
+    //background-color:lighten($second-color, 65);
+    //background-image:linear-gradient(to right, $main-color 0%, lighten($main-color, 50) 10%, lighten($main-color,55) 30%, lighten($main-color, 65) 50%, lighten($second-color, 50) 70%, lighten($second-color, 55) 90%, $second-color 100%);
+    //background-image:linear-gradient(to right,$main-color 0%, white 10%, white 90%, $main-color 100%);
     color: $second-color;
+    width:100%;
+    margin-top:50px;
+    background-image: url('../images/logo_testcopie-test.png') ;
+    background-position:center ;
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
+    background-size:contain;
 }
 
 h1 {

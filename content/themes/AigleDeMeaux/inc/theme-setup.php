@@ -6,7 +6,8 @@ function aigleDeMeaux_setup()
     add_theme_support('comment-list');
     add_theme_support('comment-form');
     register_nav_menus([
-        'menu_lateral' => 'Menu de navigation qui apparait à droite de la page',
+        'Mega Menu' => 'Menu de haut de page qui apparait en mode ordinateur',
+        'Menu lateral' => 'Menu lateral pour le mode téléphone et tablette',
 
     ]);
 }

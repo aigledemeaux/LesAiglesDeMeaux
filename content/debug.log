@@ -7173,3 +7173,734 @@ Stack trace:
 [02-Jul-2019 13:59:06 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 39
 [02-Jul-2019 14:00:43 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 39
 [02-Jul-2019 14:01:04 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 39
+[02-Jul-2019 14:07:29 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:09:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function blog_info() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php:27
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 27
+[02-Jul-2019 14:10:10 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:12:46 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:13:34 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:13:35 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:15:44 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:16:10 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:16:38 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:18:02 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:19:08 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:20:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php on line 3
+[02-Jul-2019 14:20:15 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:20:38 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:20:56 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:22:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:23:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:27:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:28:36 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:28:54 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:28:54 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:29:03 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:29:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:29:50 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:30:29 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:30:31 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:30:44 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:30:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:34 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:31:37 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:32:18 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 28
+[02-Jul-2019 14:32:18 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 28
+[02-Jul-2019 14:32:57 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:32:57 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:33:02 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:33:02 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:38:38 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 31
+[02-Jul-2019 14:38:58 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 28
+[02-Jul-2019 14:39:03 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 28
+[02-Jul-2019 14:39:31 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 28
+[02-Jul-2019 14:39:39 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 28
+[02-Jul-2019 14:39:41 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 28
+[02-Jul-2019 14:40:28 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:40:31 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:41:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:41:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 38
+[02-Jul-2019 14:47:22 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 36
+[02-Jul-2019 14:47:22 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 36
+[02-Jul-2019 14:48:11 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 36
+[02-Jul-2019 14:48:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Term as array in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php:36
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 36
+[02-Jul-2019 14:49:07 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 36
+[02-Jul-2019 14:50:51 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 31
+[02-Jul-2019 14:50:54 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 31
+[02-Jul-2019 14:50:56 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 31
+[02-Jul-2019 14:51:10 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:51:33 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:51:39 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:51:39 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:51:47 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:51:47 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 14:54:07 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 29
+[02-Jul-2019 15:17:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php on line 3
+[02-Jul-2019 15:20:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php on line 3
+[02-Jul-2019 15:27:45 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 39
+[02-Jul-2019 15:28:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php on line 3
+[02-Jul-2019 16:13:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php:3
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single.php on line 3
+[02-Jul-2019 16:13:36 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 21
+[02-Jul-2019 16:13:36 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 39
+[02-Jul-2019 16:22:13 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 26
+[02-Jul-2019 16:39:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Result_cpt::create_taxonomie() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/result-cpt.php:73
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/theme-settings.php(10): Result_cpt->activation()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php(5): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-settings.php(499): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp-config.php(117): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-load.php(42): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(13): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/result-cpt.php on line 73
+[02-Jul-2019 16:40:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Result_cpt::create_taxonomie() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/result-cpt.php:73
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/theme-settings.php(10): Result_cpt->activation()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php(5): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-settings.php(499): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp-config.php(117): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-load.php(42): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(13): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/result-cpt.php on line 73
+[02-Jul-2019 16:40:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:40:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:40:45 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:40:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:40:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:40:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:40:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:41:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:42:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:43:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Result_cpt' does not have a method 'create_taxonomie' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/class-wp-hook.php on line 286
+[02-Jul-2019 16:51:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php:9
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 9
+[02-Jul-2019 16:51:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/post-template.php on line 310
+[02-Jul-2019 16:51:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 8
+[02-Jul-2019 16:51:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php:9
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 9
+[02-Jul-2019 16:53:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/post-template.php on line 310
+[02-Jul-2019 16:53:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/post-template.php on line 310
+[02-Jul-2019 16:54:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/post-template.php on line 310
+[02-Jul-2019 16:54:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/post-template.php on line 310
+[02-Jul-2019 17:48:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 10 and at least 1 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php:2546
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(10): get_avatar()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php on line 2546
+[02-Jul-2019 17:49:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 10 and at least 1 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php:2546
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(10): get_avatar()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php on line 2546
+[02-Jul-2019 17:50:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 10 and at least 1 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php:2546
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(10): get_avatar()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php on line 2546
+[02-Jul-2019 17:50:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 10 and at least 1 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php:2546
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(10): get_avatar()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php on line 2546
+[02-Jul-2019 17:50:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 10 and at least 1 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php:2546
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(10): get_avatar()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/pluggable.php on line 2546
+[02-Jul-2019 17:51:42 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 10
+[02-Jul-2019 17:51:52 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16
+[02-Jul-2019 17:51:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16 and exactly 2 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php:1225
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(16): get_the_terms(NULL)
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php on line 1225
+[02-Jul-2019 17:52:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16 and exactly 2 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php:1225
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(16): get_the_terms(79)
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php on line 1225
+[02-Jul-2019 17:53:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16 and exactly 2 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php:1225
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(16): get_the_terms(79)
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php on line 1225
+[02-Jul-2019 17:53:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16 and exactly 2 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php:1225
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(16): get_the_terms(79)
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php on line 1225
+[02-Jul-2019 17:53:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16 and exactly 2 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php:1225
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(16): get_the_terms(79)
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php on line 1225
+[02-Jul-2019 17:53:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16 and exactly 2 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php:1225
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(16): get_the_terms(79)
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php on line 1225
+[02-Jul-2019 17:53:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16 and exactly 2 expected in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php:1225
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php(16): get_the_terms(79)
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/category-template.php on line 1225
+[02-Jul-2019 17:54:08 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16
+[02-Jul-2019 17:54:44 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 16
+[02-Jul-2019 18:01:51 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[02-Jul-2019 18:01:51 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 57
+[02-Jul-2019 19:33:58 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 27
+[02-Jul-2019 19:34:04 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 27
+[02-Jul-2019 19:34:06 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 27
+[02-Jul-2019 19:34:07 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 27
+[02-Jul-2019 19:34:57 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 27
+[02-Jul-2019 19:44:52 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 35
+[02-Jul-2019 19:45:20 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:45:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:46:02 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:46:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:47:29 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:47:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:48:22 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:48:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:48:45 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:48:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:57:54 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:57:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:58:18 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:58:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:59:06 UTC] PHP Notice:  Undefined variable: cheese in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 19:59:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:80
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 80
+[02-Jul-2019 20:01:40 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 35
+[02-Jul-2019 20:01:51 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 35
+[02-Jul-2019 20:01:52 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 35
+[02-Jul-2019 20:06:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dump() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php:17
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 17
+[02-Jul-2019 20:17:01 UTC] PHP Parse error:  syntax error, unexpected '<' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 22
+[02-Jul-2019 20:18:32 UTC] PHP Notice:  Undefined variable: second_logo in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 36
+[02-Jul-2019 20:18:35 UTC] PHP Notice:  Undefined variable: second_logo in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 36
+[02-Jul-2019 20:35:10 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[02-Jul-2019 20:35:10 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 57
+[03-Jul-2019 12:53:59 UTC] PHP Parse error:  syntax error, unexpected '"?> alt="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/page-test.php on line 6
+[04-Jul-2019 08:28:48 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 08:47:59 UTC] PHP Parse error:  syntax error, unexpected ''echo'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 47
+[04-Jul-2019 09:05:07 UTC] PHP Parse error:  syntax error, unexpected ''echo'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 49
+[04-Jul-2019 10:55:20 UTC] PHP Notice:  Undefined variable: id_base in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/plugins/megamenu/classes/widget-manager.class.php on line 198
+[04-Jul-2019 11:00:55 UTC] PHP Notice:  Undefined variable: id_base in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/plugins/megamenu/classes/widget-manager.class.php on line 198
+[04-Jul-2019 11:00:58 UTC] PHP Notice:  Undefined variable: id_base in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/plugins/megamenu/classes/widget-manager.class.php on line 198
+[04-Jul-2019 11:22:56 UTC] PHP Notice:  Undefined variable: menu in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 54
+[04-Jul-2019 11:27:27 UTC] PHP Notice:  Undefined variable: id_base in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/plugins/megamenu/classes/widget-manager.class.php on line 198
+[04-Jul-2019 11:42:52 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 11:42:52 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 11:43:19 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 11:43:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 11:43:29 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 11:43:29 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 11:54:35 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 11:54:35 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 11:54:58 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 11:54:58 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 11:55:43 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 11:55:43 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 11:56:19 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 11:56:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 12:32:52 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 12:32:52 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 12:32:52 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 12:32:52 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 13:02:14 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 13:02:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 13:02:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 13:02:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 13:15:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/page.php on line 8
+[04-Jul-2019 13:30:40 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 13:30:40 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 13:30:40 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 13:30:40 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 14:48:05 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 14:48:05 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 14:48:05 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 14:48:05 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:01:19 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 17:01:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:01:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:01:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:01:48 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 17:01:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:01:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:01:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:59:06 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[04-Jul-2019 17:59:06 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:59:06 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[04-Jul-2019 17:59:06 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 55
+[05-Jul-2019 08:25:21 UTC] PHP Notice:  Undefined variable: first_logo in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 10
+[05-Jul-2019 08:25:21 UTC] PHP Notice:  Undefined variable: second_logo in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 18
+[05-Jul-2019 08:25:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/post-template.php on line 310
+[05-Jul-2019 08:26:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 42
+[05-Jul-2019 08:28:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 12
+[05-Jul-2019 08:40:14 UTC] PHP Notice:  Undefined variable: arguments in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 14
+[05-Jul-2019 08:40:22 UTC] PHP Notice:  Undefined variable: arguments in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 14
+[05-Jul-2019 08:40:25 UTC] PHP Notice:  Undefined variable: arguments in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 14
+[05-Jul-2019 09:15:41 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:18:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function null() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php:57
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function null() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php:57
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function null() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php:57
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:20:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:20:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:20:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:20:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:20:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:20:12 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:25:11 UTC] PHP Parse error:  syntax error, unexpected 'categorie' (T_STRING) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:26:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function null() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php:57
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:27:13 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 57
+[05-Jul-2019 09:29:16 UTC] PHP Parse error:  syntax error, unexpected '<' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 55
+[05-Jul-2019 09:34:04 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 54
+[05-Jul-2019 09:34:20 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 54
+[05-Jul-2019 09:34:41 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 54
+[05-Jul-2019 09:34:44 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 54
+[05-Jul-2019 09:34:57 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 54
+[05-Jul-2019 09:35:01 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 54
+[05-Jul-2019 09:36:12 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 54
+[05-Jul-2019 09:36:24 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 78
+[05-Jul-2019 09:40:10 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 94
+[05-Jul-2019 09:43:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 94
+[05-Jul-2019 09:43:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 94
+[05-Jul-2019 12:32:58 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 18
+[05-Jul-2019 12:33:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 18
+[05-Jul-2019 12:33:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 18
+[05-Jul-2019 12:40:13 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/observations/around?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;insee=35238&amp;radius=50): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 21
+[05-Jul-2019 12:40:19 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/observations/around?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;insee=35238&amp;radius=50): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 21
+[05-Jul-2019 12:40:51 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/observations/around?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;radius=50): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 21
+[05-Jul-2019 12:40:56 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/observations/around?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;radius=50): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 21
+[05-Jul-2019 12:41:48 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/observations/around?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;radius=50): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 21
+[05-Jul-2019 12:41:50 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/observations/around?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;radius=50): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 21
+[05-Jul-2019 12:47:18 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 23
+[05-Jul-2019 12:47:26 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/1/map?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=35238&amp;radius=30&amp;level=3): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 25
+[05-Jul-2019 12:47:55 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/1/map?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;radius=30&amp;level=3): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 25
+[05-Jul-2019 12:48:10 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/1/map?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284&amp;radius=30&amp;level=3): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 25
+[05-Jul-2019 12:52:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 50
+[05-Jul-2019 12:55:49 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting variable (T_VARIABLE) or '{' or '$' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 51
+[05-Jul-2019 13:01:06 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 43
+[05-Jul-2019 13:06:39 UTC] PHP Parse error:  syntax error, unexpected '"', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 35
+[05-Jul-2019 13:08:18 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:08:22 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:08:37 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:09:53 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:10:56 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 28
+[05-Jul-2019 13:11:34 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting ',' or ';' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:11:35 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting ',' or ';' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:12:37 UTC] PHP Parse error:  syntax error, unexpected '"', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:12:56 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:13:29 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:13:32 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:13:46 UTC] PHP Notice:  Undefined index: temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:14:31 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 54
+[05-Jul-2019 13:15:43 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 54
+[05-Jul-2019 13:15:56 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/nextHours?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 30
+[05-Jul-2019 13:16:02 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/nextHours?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 30
+[05-Jul-2019 13:17:29 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 30
+[05-Jul-2019 13:17:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 30
+[05-Jul-2019 13:17:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 30
+[05-Jul-2019 13:17:58 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/3/period/2?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;amp;insee=35238): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 123
+[05-Jul-2019 13:18:21 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/3/period/2?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;amp;insee=35238): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 123
+[05-Jul-2019 13:18:50 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/0?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 27
+[05-Jul-2019 13:18:54 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/0?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 27
+[05-Jul-2019 13:18:58 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/0?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 27
+[05-Jul-2019 13:19:51 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:21:18 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:21:26 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:23:25 UTC] PHP Notice:  Undefined variable: min in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:23:25 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:23:28 UTC] PHP Notice:  Undefined variable: min in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:23:28 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:24:24 UTC] PHP Notice:  Undefined variable: update in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:24:24 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:24:28 UTC] PHP Notice:  Undefined variable: update in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:24:28 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 36
+[05-Jul-2019 13:24:55 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 37
+[05-Jul-2019 13:26:14 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 37
+[05-Jul-2019 13:26:15 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 37
+[05-Jul-2019 13:26:19 UTC] PHP Notice:  Undefined property: stdClass::$temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 37
+[05-Jul-2019 13:27:55 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:28:09 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:28:21 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:28:36 UTC] PHP Warning:  Use of undefined constant temp2m - assumed 'temp2m' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:28:36 UTC] PHP Notice:  Undefined index: temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:28:43 UTC] PHP Notice:  Undefined index: temp2m in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:30:47 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/periods?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 27
+[05-Jul-2019 13:30:48 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/periods?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 27
+[05-Jul-2019 13:30:54 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/periods?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 27
+[05-Jul-2019 13:31:22 UTC] PHP Warning:  file_get_contents(https://api.meteo-concept.com/api/forecast/daily/periods?token=30cd2f3c81c6d780998c9905e7396bca93c3ed8895f593de25710d8a58d55c75&amp;insee=77284): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 27
+[05-Jul-2019 13:33:52 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:33:58 UTC] PHP Notice:  Trying to get property 'temp2m' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:36:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 47
+[05-Jul-2019 13:40:57 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:40:57 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:40:57 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:40:57 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:01 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:01 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:01 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:01 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:12 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:12 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:12 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:41:12 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:42:09 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 32
+[05-Jul-2019 13:42:09 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 32
+[05-Jul-2019 13:42:09 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:42:09 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 32
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 32
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/functions.php on line 33
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:42:10 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:43:12 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:43:12 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:43:12 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:43:12 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 89
+[05-Jul-2019 13:43:59 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 2
+[05-Jul-2019 13:47:37 UTC] PHP Notice:  Undefined variable: forecast in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:47:37 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:47:37 UTC] PHP Notice:  Undefined index:  in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:47:45 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:47:45 UTC] PHP Notice:  Undefined index:  in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:53:19 UTC] PHP Warning:  Creating default object from empty value in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-meteo.php on line 110
+[05-Jul-2019 13:53:20 UTC] PHP Notice:  Undefined index:  in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:55:14 UTC] PHP Warning:  Use of undefined constant WEATHER - assumed 'WEATHER' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:57:24 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 90
+[05-Jul-2019 13:57:24 UTC] PHP Notice:  Trying to get property 'tmin' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 90
+[05-Jul-2019 13:57:24 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 90
+[05-Jul-2019 13:57:24 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 90
+[05-Jul-2019 13:57:24 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:57:24 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 13:57:24 UTC] PHP Notice:  Undefined index:  in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:02:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 90
+[05-Jul-2019 14:05:31 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 90
+[05-Jul-2019 14:05:31 UTC] PHP Notice:  Trying to get property 'tmax' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 90
+[05-Jul-2019 14:05:31 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:05:31 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:05:31 UTC] PHP Notice:  Undefined index:  in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:10:22 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:10:22 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:10:22 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 100
+[05-Jul-2019 14:10:22 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 100
+[05-Jul-2019 14:10:22 UTC] PHP Notice:  Undefined index:  in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 100
+[05-Jul-2019 14:10:36 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:10:36 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:10:41 UTC] PHP Notice:  Undefined variable: forecasts in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 14:10:41 UTC] PHP Notice:  Trying to get property 'weather' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/header.php on line 91
+[05-Jul-2019 15:45:07 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/single-actualite.php on line 17
+[05-Jul-2019 16:14:24 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 16:19:48 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 99
+[05-Jul-2019 16:21:02 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 99
+[05-Jul-2019 16:21:30 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 99
+[05-Jul-2019 16:21:35 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 99
+[05-Jul-2019 16:26:43 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 16:57:28 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 18:21:14 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 18:28:16 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 18:43:42 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 19:39:43 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 19:39:44 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 19:39:56 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 19:40:01 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 19:40:05 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 19:40:10 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 20:09:30 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 20:09:31 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 20:09:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 20:16:49 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 20:16:57 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 20:16:57 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 21:48:56 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 21:58:16 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 22:07:15 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[05-Jul-2019 22:08:41 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[06-Jul-2019 09:45:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[06-Jul-2019 10:52:26 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[06-Jul-2019 11:02:55 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[06-Jul-2019 11:02:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 120
+[06-Jul-2019 11:03:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 120
+[06-Jul-2019 11:03:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 120
+[06-Jul-2019 11:03:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/front-page.php on line 120
+[06-Jul-2019 11:05:34 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[06-Jul-2019 11:06:30 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[06-Jul-2019 11:06:58 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-actualite.php on line 62
+[06-Jul-2019 11:07:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 79
+[06-Jul-2019 11:31:01 UTC] PHP Notice:  Undefined variable: result in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-result.php on line 1
+[06-Jul-2019 11:31:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-result.php:1
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template.php(724): require()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template.php(671): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php(21): get_template_part('template-parts/...', 'resultat')
+#4 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-result.php on line 1
+[06-Jul-2019 11:36:46 UTC] PHP Notice:  Undefined variable: result in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-result.php on line 1
+[06-Jul-2019 11:36:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-result.php:1
+Stack trace:
+#0 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template.php(724): require()
+#1 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template.php(671): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php(21): get_template_part('template-parts/...', 'resultat')
+#4 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-includes/template-loader.php(78): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/LesAiglesDeMeaux/wp/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/LesAiglesDeMeaux/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-result.php on line 1
+[06-Jul-2019 11:56:08 UTC] PHP Parse error:  syntax error, unexpected 'flush_rewrite_rules' (T_STRING) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/result-cpt.php on line 108
+[06-Jul-2019 11:56:10 UTC] PHP Parse error:  syntax error, unexpected 'flush_rewrite_rules' (T_STRING) in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/inc/theme-settings/result-cpt.php on line 108
+[06-Jul-2019 12:00:59 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 32
+[06-Jul-2019 12:00:59 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 33
+[06-Jul-2019 12:00:59 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 32
+[06-Jul-2019 12:00:59 UTC] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive-resultat.php on line 33
+[06-Jul-2019 12:01:39 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 19
+[06-Jul-2019 12:07:23 UTC] PHP Notice:  Undefined variable: args_pag in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 59
+[06-Jul-2019 12:07:31 UTC] PHP Notice:  Undefined variable: args_pag in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 59
+[06-Jul-2019 12:08:13 UTC] PHP Notice:  Undefined variable: args_pag in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 59
+[06-Jul-2019 12:08:19 UTC] PHP Notice:  Undefined variable: args_pag in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 59
+[06-Jul-2019 12:23:22 UTC] PHP Notice:  Undefined variable: categorie in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 85
+[06-Jul-2019 12:23:41 UTC] PHP Notice:  Undefined variable: equipe in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 85
+[06-Jul-2019 12:32:59 UTC] PHP Notice:  Undefined variable: equipes in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-menu-tri.php on line 12
+[06-Jul-2019 12:32:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-menu-tri.php on line 12
+[06-Jul-2019 12:32:59 UTC] PHP Notice:  Undefined variable: equipes in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-menu-tri.php on line 25
+[06-Jul-2019 12:32:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/template-parts/template-part-menu-tri.php on line 25
+[06-Jul-2019 12:36:01 UTC] PHP Notice:  Undefined variable: equipe in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 84
+[06-Jul-2019 12:36:54 UTC] PHP Notice:  Undefined variable: equipe in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 54
+[06-Jul-2019 12:57:35 UTC] PHP Notice:  Undefined variable: category in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 20
+[06-Jul-2019 12:57:48 UTC] PHP Notice:  Undefined variable: category in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 20
+[06-Jul-2019 12:58:45 UTC] PHP Notice:  Undefined variable: category in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 20
+[06-Jul-2019 12:58:49 UTC] PHP Notice:  Undefined variable: category in /Applications/MAMP/htdocs/LesAiglesDeMeaux/content/themes/AigleDeMeaux/archive.php on line 20

@@ -6,15 +6,20 @@
 'components/menu',
 'components/carousel',
 'components/form',
-'components/pagination'; 
+'components/pagination',
+'components/nav-bar'; 
 
 @import 
         'layouts/header',
         'layouts/resultats',
         'layouts/articles',
         'layouts/regle',
-        'layouts/footer';
+        'layouts/footer',
+        'layouts/header-buttons';
 
 
 @import
-       'pages/allArticles';
+       'pages/allArticles',
+       'pages/single-actu',
+       'pages/evenements',
+       'pages/page';

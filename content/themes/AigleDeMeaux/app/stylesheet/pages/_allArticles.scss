@@ -1,27 +1,84 @@
-.section-articles{
+.section-articles {
 
-    .category{
-        max-width: 100%;
-        display:flex;
-        justify-content:center;
-        font-size: 1.3em;
-        border-top : $second-color 3px solid;
-        border-bottom : $second-color 3px solid;
-        margin: 20px;
+    //Mode pc
+    @media only screen and (min-width: $dekstop) {
+        .category-tel {
+            visibility: hidden;
+        }
 
-        
-        a{
-            margin: 5%;
-            color:$second-color;
-            margin:20px 5%;
+        .category-pc {
+            visibility: visible !important;
+        }
 
-            &:hover{
-                color: $main-color;
-                font-size: 1.1em;
-                transition-duration: 0.3s;
-                
+        .category-pc {
+            max-width: 80%;
+            display: flex;
+            justify-content: space-around;
+            font-size: 1.3em;
+            border-right: $main-color 3px solid;
+            border-left: $main-color 3px solid;
+            margin:0 auto 20px auto;
+            background-color: rgba(lighten($second-color,50), 0.5);
+
+            a {
+                margin: 5%;
+                color: $second-color;
+                margin: 20px 5%;
+
+                &:hover {
+                    color: $main-color;
+                    text-decoration:none;
+                    transition-duration: 0.3s;
+                    transform: scale(1.2);
+
+                }
             }
         }
-        
+    }
+
+    //Mode mobile
+    @media only screen and (max-width: $dekstop) {
+        .category-pc {
+            visibility: hidden;
+        }
+
+        .category-tel {
+            visibility: visible !important;
+        }
+
+        .category-tel {
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            //border-top: $second-color 3px solid;
+            //border-bottom: $second-color 3px solid;
+            margin: 20px;
+            
+            .nav-pills .nav-link.active,
+            .nav-pills .show>.nav-link {
+                background-color: $main-color;
+            }
+
+            .section-articles .category a:hover {
+                color: white;
+            }
+
+            .nav-link .dropdown-toggle {
+                color: white;
+
+                &:hover {
+                    color: white;
+                }
+
+            }
+            
+            
+            a{
+                color:$main-color;
+            }
+            .nav-link .dropdown-toggle{
+                border: 2px solid $main-color;
+            }
+        }
     }
 }
