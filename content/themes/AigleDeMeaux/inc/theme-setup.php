@@ -8,6 +8,8 @@ function aigleDeMeaux_setup()
     register_nav_menus([
         'Mega Menu' => 'Menu de haut de page qui apparait en mode ordinateur',
         'Menu lateral' => 'Menu lateral pour le mode téléphone et tablette',
+        'partenaire' => 'Menu qui se situe dans le pied de page pour recenser les partenaires',
+        'menu lien direct' => 'Menu qui se situe dans le pied de page pour afficher la FAQ, le forum, ...',
 
     ]);
 }

@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Arya&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 * {
     font-family :  'Arya', sans-serif;
     box-sizing: border-box;
 }
 
 body{
-    //background: radial-gradient(lighten($main-color, 60), lighten($second-color, 65));
+    background: radial-gradient(lighten($main-color, 65), lighten($second-color, 65));
 }
 .wrapper{
    
@@ -16,7 +17,7 @@ body{
     color: $second-color;
     width:100%;
     margin-top:50px;
-    background-image: url('../images/logo_testcopie-test.png') ;
+    background-image: url('../images/cyrille.png') ;
     background-position:center ;
     background-repeat:no-repeat; 
     background-attachment:fixed;
@@ -27,10 +28,23 @@ h1 {
     font-family: 'Black Ops One', cursive;
     text-transform: uppercase;
     text-align:center;
+    font-size: 1.5em !important;
+    @media only screen and (min-width: $tablette) {
+        font-size: 2em!important;
+
+    }
+    @media only screen and (min-width: $dekstop) {
+        font-size: 2.5em!important;
+
+    }
 }
 h2{
     text-align:center;
     text-transform:uppercase;
+    font-size:1.7em !important;
+    //font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 hr {
     //padding : 20px 90px ;

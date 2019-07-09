@@ -34,32 +34,7 @@
     </div>
 
     <div class="header-top">
-        <!-- <nav class="main-nav">
-            <a href="">Accueil</a>
-            <a href="">Nos actualités</a>
-            <a href="">Le club</a>
-            <a href="">Calendrier</a>
-            <a href="">Résultats</a>
-        </nav> -->
-        
 
-
-        <?php /*$menu = wp_nav_menu([
-    // Je désigne le menu à afficher "définit dans functions.php
-    'theme_location' => 'Menu de haut de page qui apparait en mode ordinateur',
-    // Je souhaite avoir un container (= une balise qui englobe mon menu) "<nav>"
-    'container' => 'nav',
-    // Je souhaite que mon container ai la classe "main-nav
-    'menu_class' => 'main-nav',
-    
-    'menu' => 'Mega Menu',
-
-
-
-    // Je ne souhaite pas afficher mon menu directement mais le récuperer dans une variable
-    'echo' => false
-]); ?>
-<?= $menu */?>
 <?php wp_nav_menu( array( 
     'theme_location' => 'Mega Menu',
     'menu_class' => 'main-nav',
@@ -73,11 +48,11 @@
 <div class="wrapper">
 <header>
     <div class="header-middle">
-        <img class="header-middle__logo" src ="<?= get_theme_file_uri('public/images/logo.png') ?>">
+        <img class="header-middle__logo" src ="<?= get_theme_file_uri('public/images/logo.png') ?>" alt="logo de l'équipe de baseball des aigles de Meaux">
         <div class="header-middle__title">
-            <img class="header-middle__logo" src ="<?= get_theme_file_uri('public/images/balle.png') ?>" style="width:40px; height:40px;">
+            <img class="header-middle__logo" src ="<?= get_theme_file_uri('public/images/balle.png') ?>" alt="balle de baseball" style="width:40px; height:40px;">
             <h1 class="header-middle__title__team">Les Aigles de Meaux<br>(Baseball)</h1>
-            <img class="header-middle__logo" src ="<?= get_theme_file_uri('public/images/balle.png') ?>" style="width:40px; height:40px;">
+            <img class="header-middle__logo" src ="<?= get_theme_file_uri('public/images/balle.png') ?>" alt="balle de baseball" style="width:40px; height:40px;">
             
         </div>
     </div>

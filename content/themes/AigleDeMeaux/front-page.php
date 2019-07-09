@@ -35,13 +35,13 @@ get_header() ?>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="content/themes/AigleDeMeaux/public/images/inscription.jpg" class="d-block w-100" alt="...">
+        <img src="<?= get_theme_mod('section_carousel_1') ?>" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="content/themes/AigleDeMeaux/public/images/reprise.jpg" class="d-block w-100" alt="...">
+        <img src="<?= get_theme_mod('section_carousel_2') ?>" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="content/themes/AigleDeMeaux/public/images/reprise2.jpg" class="d-block w-100" alt="...">
+        <img src="<?= get_theme_mod('section_carousel_3') ?>" class="d-block w-100" alt="...">
       </div>
 
     </div>
@@ -81,19 +81,8 @@ get_header() ?>
 <hr>
 <section class="rules">
   <h2 class="rules__title" id="rules">Découvrez le baseball</h2>
-  <div class="rules__position">
-    <img src="content/themes/AigleDeMeaux/public/images/TerrainDeBaseball.png" alt="" class="rules__position__image">
-    <div class="rules_position_text">
-      <p><span>C (catcher) :</span> Attrape la balle du lanceur.</p>
-      <p><span>P (Pitcher) :</span> Lance la batte au batteur.</p>
-      <p><span>2B (2ème base) :</span> Se tient prêt a réceptionner la balle en 2ème base.</p>
-      <p><span>3B (3ème base) :</span> Se tient prêt a réceptionner la balle en 3ème base.</p>
-      <p><span>LF (Left Field) :</span> Attrape la balle du lanceur.</p>
-      <p><span>CF (Center Field) :</span> Attrape la balle du lanceur.</p>
-      <p><span>RF (Right Field) :</span> Attrape la balle du lanceur.</p>
-      <p><span>SS (Short Stop) :</span> Attrape la balle du lanceur.</p>
-    </div>
-  </div>
+
+  <img src="<?= get_theme_file_uri('public/images/bd-baseball.jpg') ?>" alt="Bande dessiné sur les règles du baseball">
 </section>
 
 

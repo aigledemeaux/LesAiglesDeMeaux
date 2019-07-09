@@ -1,0 +1,15 @@
+.carousel{
+    margin-top: 2%;
+
+    img{
+        height:200px;
+
+        @media only screen and (min-width: $tablette) {
+            height: 300px;
+        }
+
+        @media only screen and (min-width: $dekstop) {
+            height: 425px;
+        }
+    }
+}

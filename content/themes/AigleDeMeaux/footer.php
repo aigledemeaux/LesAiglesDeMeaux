@@ -2,22 +2,32 @@
 <footer class="footer">
   <div class="firstpart">
     <h4 class="firstpart__title">Lien direct</h4>
-    <ul>
+    <!--<ul>
       <li>Forum</li>
       <li>Faq</li>
       <li>Contactez nous</li>
-    </ul>
+    </ul>-->
+    <?php wp_nav_menu( array( 
+    'theme_location' => 'menu lien direct',
+    'menu_class' => '',
+    'container' => 'ul',
+    ) ); ?>
   </div>
   
   <div class="secondpart">
     <h4 class="secondpart__title">Nos partenaires</h4>
-    <ul>
+    <?php wp_nav_menu( array( 
+    'theme_location' => 'partenaire',
+    'menu_class' => '',
+    'container' => 'ul',
+    ) ); ?>
+    <!--<ul>
       <li>Partenaire 1</li>
       <li>Partenaire 2</li>
       <li>Partenaire 3</li>
       <li>Partenaire 4</li>
       <li>Partenaire 5</li>
-    </ul>
+    </ul>-->
   </div>
   <div class="thirdpart">
   <h4 class="thirdpart__title">Contactez nous</h4>
@@ -33,6 +43,7 @@
         <i class="fa fa-instagram" aria-hidden="true"></i>
       </a>
     </div>
+    
 
 
   </div>

@@ -3,7 +3,8 @@ var app = {
     console.log('init');
     var button = $('.button-menu');
     var wrapper = $('.wrapper');
-    $('a[href*="#"]:not([href="#"])').on('click', app.handleScroll);
+    $('.buttons__button').on('click', app.handleScroll);
+   // $('a[href*="#"]:not([href="#"])').on('click', app.handleScroll);
     button.on('click', app.openCloseMenu);
     wrapper.on('click', app.closeMenu);
   },
